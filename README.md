@@ -75,4 +75,5 @@ python -m pip install langchain-google-genai fastapi "uvicorn[standard]" pandas 
 uvicorn backend_api:app --reload --port 8010
 ```
 
+• The backend runs in: http://127.0.0.1:8010</br>
 • For macOS, disable AirPlay to avoid port deprecation</br>
