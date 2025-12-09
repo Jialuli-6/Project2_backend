@@ -81,4 +81,4 @@ python -m uvicorn backend_api:app --reload --port 8010
 <h3>Data preprocessing</h3>
 The main data for both projects are processed using the file: data_processing.ipynb</br>
 Data are loaded from HuggingFace SciSciNet-v2 (please refer to: https://northwestern-cssi.github.io/sciscinet/)</br>
-Data are filtered according to the project requirements and merged into a single large database, including key information such as paperid, author_id, fieldid, institution, citation, etc.</br>
+For the second project, data are filtered according to the project requirements and merged into a single large database, including key information such as paperid, author_id, fieldid, institution, citation, etc.</br>
