@@ -77,9 +77,9 @@ python -m uvicorn backend_api:app --reload --port 8010
 
 • The backend runs in: http://127.0.0.1:8010</br>
 • For macOS, disable AirPlay to avoid port deprecation</br>
-• Please input valid gemini api before running the backend</br>
+• Please input a valid gemini api before running the backend</br>
 
 <h3>Data preprocessing</h3>
 The main data for both projects are processed using the file: data_processing.ipynb</br>
-Data are loaded from HuggingFace SciSciNet-v2 (please refer to: https://northwestern-cssi.github.io/sciscinet/)</br>
+Data are loaded from HuggingFace SciSciNet-v2 (please refer to: https://northwestern-cssi.github.io/sciscinet/). Please insert a valid HuggingFace token before running the file.</br>
 For the second project, data are filtered according to the project requirements and merged into a single large database, including key information such as paperid, author_id, fieldid, institution, citation, etc.</br>
